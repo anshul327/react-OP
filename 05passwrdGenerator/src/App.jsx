@@ -80,7 +80,7 @@ function App() {
             <input type="checkbox"
               defaultChecked={numberAllowed}
               id='numberInput'
-              onChange={() => { setNA((prev) => !prev); }} />
+              onChange={() => { setNA(!numberAllowed) }} />
             <label htmlFor="">Numbers</label>
           </div>
 
